@@ -1,0 +1,13 @@
+QR CODE FORMATTING
+
+2022-2023 Highlights/QR Codes:
+Example: uhsboyssoccer
+
+2023-Onward Highlights/QR Codes:
+Example: boyssoccer
+
+"It does not need to be stated in the title that a sport is from UHS. This is extra text that is not neccessary."
+
+A properly formatted directory should look like this:
+
+utvstudioproductions.org/redirect/2023-2024/boyssoccer.html
