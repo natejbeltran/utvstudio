@@ -1,0 +1,3 @@
+"QR Code Generator" is not nessecary.
+
+2023 - Onward, use the Google Sheet solution.
