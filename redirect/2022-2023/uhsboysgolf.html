@@ -1,27 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>2022-2023 UHS Boys Golf</title>
-	<style>
-		body {
-			background-color: black;
-			text-align: center;
-		}
+  <style>
+    /* CSS to style the page */
+    body {
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
 
-		h1 {
-			color: red;
-			animation: color-change 1s linear infinite;
-			font-weight: bold;
-		}
+    /* CSS for the text */
+    p {
+      color: white;
+      font-family: "Times New Roman", Times, serif;
+      text-align: center;
+      margin: 0.5rem 0; /* Adjust the margin value to reduce the spacing */
+    }
 
-		@keyframes color-change {
-			0% {color: red;}
-			50% {color: blue;}
-			100% {color: red;}
-		}
-	</style>
+    /* Top text styling */
+    #top-text {
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+    /* Bottom text styling */
+    #cycling-text {
+      font-size: 25px;
+      font-style: italic;
+    }
+
+    /* CSS animation for color cycling */
+    @keyframes colorCycle {
+      0%   { color: green; }
+      50%  { color: black; }
+      100% { color: green; }
+    }
+
+    /* Apply color cycling animation to the second text */
+    #cycling-text {
+      animation: colorCycle 3s linear infinite;
+    }
+  </style>
 </head>
 <body>
-	<h1>2022-2023 UHS Boys Golf</h1>
+  <div>
+    <p id="top-text">UTV Studio Productions</p>
+    <p id="cycling-text">2022-2023 Boys Golf Highlight Coming Soon</p>
+  </div>
 </body>
 </html>
